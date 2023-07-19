@@ -2,6 +2,8 @@ package demo.ignat.model;
 
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
 @Component
 public class Mouse {
 
@@ -15,8 +17,13 @@ public class Mouse {
         this.name = name;
     }
 
+    @PostConstruct
+    public void init() {
+        System.out.println("Mouse has been initialized");
+    }
+
     @Override
     public String toString() {
-        return "I`m model.Mouse, my name is " + name;
+        return "I`m Mouse, my name is " + name;
     }
 }

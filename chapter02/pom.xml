@@ -9,9 +9,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>chapter01</artifactId>
+    <artifactId>chapter02</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chapter01</name>
+    <name>chapter02</name>
     <description>Demo project for grokking Spring Boot based on Spring Start Here by Laurentiu Spilca.</description>
     <properties>
         <java.version>17</java.version>
@@ -21,10 +21,17 @@
     <packaging>jar</packaging>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>6.0.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.2</version>
         </dependency>
 
     </dependencies>

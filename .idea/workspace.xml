@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d1d1a-fdd7-4982-a0f8-1d2b107c1e3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/src/main/java/config/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/src/main/java/config/ComponentConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/src/main/java/model/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/src/main/java/model/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/src/main/java/demo/ignat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/src/main/java/demo/ignat/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/src/main/java/demo/ignat/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/src/main/java/demo/ignat/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/src/main/java/demo/ignat/config/ComponentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/src/main/java/demo/ignat/config/ComponentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/src/main/java/demo/ignat/model/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/src/main/java/demo/ignat/model/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/src/main/java/demo/ignat/model/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/src/main/java/demo/ignat/model/Parrot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="chapter01" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,19 +55,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17"
+    "jdk.selected.JAVA_MODULE": "17",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.ignat.Main" />
-      <module name="chapter01" />
+      <module name="chapter02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
