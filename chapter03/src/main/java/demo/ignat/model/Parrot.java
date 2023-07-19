@@ -1,8 +1,11 @@
 package demo.ignat.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Parrot {
 
-    private String name;
+    private String name = "Mike";
 
     public String getName() {
         return name;
@@ -14,6 +17,8 @@ public class Parrot {
 
     @Override
     public String toString() {
-        return "I`m Parrot, my name is " + name;
+        return "Parrot{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
