@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827d1d1a-fdd7-4982-a0f8-1d2b107c1e3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter04/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/proxy/CommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/proxy/impl/EmailCommentNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/proxy/impl/PushCommentNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/repository/impl/SqlCommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/demo/ignat/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="827d1d1a-fdd7-4982-a0f8-1d2b107c1e3e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
