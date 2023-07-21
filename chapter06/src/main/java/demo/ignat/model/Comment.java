@@ -1,6 +1,7 @@
 package demo.ignat.model;
 
 public class Comment {
+
     private final String text;
 
     public Comment(String text) {
@@ -8,11 +9,7 @@ public class Comment {
     }
 
     public Comment(Comment comment) {
-        this.text = comment.getText();
-    }
-
-    public Comment update(String text) {
-        return new Comment(text);
+        this(comment.getText());
     }
 
     public String getText() {
@@ -25,5 +22,4 @@ public class Comment {
                 "text='" + text + '\'' +
                 '}';
     }
-
 }

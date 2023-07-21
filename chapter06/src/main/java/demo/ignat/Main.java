@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         var context = new AnnotationConfigApplicationContext(Config.class);
-        var commentService = context.getBean(CommentService.class);
+        var service = context.getBean(CommentService.class);
+        service.publishComment(new Comment("Hello"));
 
-        commentService.publishComment(new Comment("Hello"));
     }
 }
