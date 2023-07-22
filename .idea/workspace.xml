@@ -5,13 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d1d1a-fdd7-4982-a0f8-1d2b107c1e3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/SecurityAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/ToLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/demo/ignat/Chapter08Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/demo/ignat/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/demo/ignat/controller/SimpleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/demo/ignat/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/demo/ignat/service/DefaultProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/demo/ignat/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/resources/templates/parameters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/main/resources/templates/variables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter08/src/test/java/demo/ignat/Chapter08ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/src/main/java/demo/ignat/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +66,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -65,7 +81,25 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="demo.ignat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Chapter08Application">
+    <configuration name="Chapter08Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.ignat.Chapter08Application" />
+      <module name="chapter08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.ignat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Comment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.ignat.model.Comment" />
       <module name="chapter04" />
@@ -120,13 +154,6 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.ignat.Main" />
-      <module name="chapter02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.ignat.Main" />
       <module name="chapter03" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter08Application" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Comment" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
