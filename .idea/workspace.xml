@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d1d1a-fdd7-4982-a0f8-1d2b107c1e3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/service/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/service/impl/DefaultCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/SecurityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/ToLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/proxy/CommentNotificationProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/proxy/impl/EmailCommentNotification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/proxy/impl/PushCommentNotification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/repository/CommentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/repository/impl/SqlCommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/aspect/LoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/java/demo/ignat/service/CommentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
