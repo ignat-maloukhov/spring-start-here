@@ -9,9 +9,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>chapter13</artifactId>
+    <artifactId>chapter14</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chapter13</name>
+    <name>chapter14</name>
     <description>Demo project for grokking Spring Boot based on Spring Start Here by Laurentiu Spilca.</description>
     <properties>
         <java.version>17</java.version>
