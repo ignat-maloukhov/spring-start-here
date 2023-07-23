@@ -9,13 +9,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>chapter10</artifactId>
+    <artifactId>chapter13</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chapter10</name>
+    <name>chapter13</name>
     <description>Demo project for grokking Spring Boot based on Spring Start Here by Laurentiu Spilca.</description>
     <properties>
         <java.version>17</java.version>
-        <start-class>demo.ignat.Chapter10Application</start-class>
+        <start-class>demo.ignat.Chapter13Application</start-class>
     </properties>
     <dependencies>
 
@@ -26,7 +26,13 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
