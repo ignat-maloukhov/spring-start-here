@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d1d1a-fdd7-4982-a0f8-1d2b107c1e3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter09/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/demo/ignat/Chapter09Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/demo/ignat/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/demo/ignat/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/demo/ignat/model/LoginProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/demo/ignat/service/LoggedUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/test/java/demo/ignat/Chapter09ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/demo/ignat/Chapter10Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/demo/ignat/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/demo/ignat/exception/ExceptionControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/demo/ignat/exception/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/demo/ignat/model/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/demo/ignat/model/PaymentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/java/demo/ignat/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/resources/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/test/java/demo/ignat/Chapter10ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -80,7 +82,7 @@
       <recent name="demo.ignat" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter09Application">
+  <component name="RunManager" selected="Application.Chapter10Application">
     <configuration name="Chapter08Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.ignat.Chapter08Application" />
       <module name="chapter08" />
@@ -107,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Comment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.ignat.model.Comment" />
-      <module name="chapter04" />
+    <configuration name="Chapter10Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.ignat.Chapter10Application" />
+      <module name="chapter10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.ignat.model.*" />
+          <option name="PATTERN" value="demo.ignat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter10Application" />
         <item itemvalue="Application.Chapter09Application" />
         <item itemvalue="Application.Chapter08Application" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Comment" />
       </list>
     </recent_temporary>
   </component>
