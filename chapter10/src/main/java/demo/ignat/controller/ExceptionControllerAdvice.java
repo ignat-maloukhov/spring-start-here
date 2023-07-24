@@ -1,5 +1,6 @@
-package demo.ignat.exception;
+package demo.ignat.controller;
 
+import demo.ignat.exception.NotEnoughMoneyException;
 import demo.ignat.model.ErrorDetails;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
